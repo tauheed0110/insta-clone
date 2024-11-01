@@ -1,0 +1,234 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Roboto", sans-serif;
+}
+
+
+#main {
+    height: 100vh;
+    width: 100vw;
+    background-color: #FFFFFF;
+    display: flex;
+}
+
+#left {
+    width: 20%;
+    min-width: 200px;
+    border-right: 1px solid gray;
+}
+
+#right {
+    padding: 20px;
+}
+
+#left>img {
+    position: absolute;
+    width: 103px;
+    height: 29px;
+    left: 24px;
+    top: 40px;
+}
+
+#left>ul{
+    position: relative;
+    top: 82px;
+    /* border: 1px solid black; */
+    margin: 12px;
+    padding: 0px 20px;
+    list-style-type: none;
+}
+
+#left>ul>li{
+    margin-bottom: 12px;
+}
+
+#left>ul>li>a{
+    position: relative;
+    top: -4px;
+    margin-left: 8px;
+}
+
+#left>ul>li>img {
+    width: 24px;
+    height: 24px;
+}
+#left>ul>li>a{
+    text-decoration: none;
+    color: black;
+}
+#left>ul>li:first-child{
+    font-weight: 700;
+}
+
+#right{
+    width: 80%;
+    overflow: hidden;
+    overflow-y: scroll;
+}
+#rightCorner{
+    width: 319px;
+    /* border: 1px solid black; */
+    padding: 40px 0px;
+    position: absolute;
+    top: 0px;
+    right: 40px;
+}
+
+#rightCorner>#head{
+    /* border: 1px solid black; */
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+#head>div{
+    display: flex;
+}
+#head>div>section{
+    margin: 10px 0px 0px 8px;
+}
+
+.darkText{
+    font-size: 14px;
+    font-weight: 600;
+}
+.lightText{
+    color: lightgray;
+    font-size: 14px;
+    font-weight: 600;
+}
+.lightSmallText{
+    color: lightgray;
+    font-size: 12px;
+    font-weight: 600;
+}
+.box{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.box>a{
+    text-decoration: none;
+    font-size: 14px;
+    margin-bottom: 12px;
+}
+.subBox{
+    display: flex;
+}
+.subBox>section{
+    margin: 5px 0px 0px 8px;
+}
+#rightCorner>#body>div{
+    display: flex;
+    justify-content: space-between;
+}
+#rightCorner>#body>div>h1{
+    font-size: 14px;
+    color: gray;
+}
+#rightCorner>#body>div>p{
+    font-size: 14px;
+}
+#rightCorner>#head>a{
+    text-decoration: none;
+    font-size: 14px;
+}
+#footer{
+    margin: 40px 0px;
+}
+#footer>ul>a{
+    text-decoration: none;
+    color: gray;
+    font-size: 13px;
+}
+#footer>p{
+    margin: 10px 0px 0px 0px;
+    color: gray;
+    font-size: 13px;
+}
+
+#rightBody{
+    width: 50%;
+    margin: 0px 0px 0px 20px;
+}
+#status{
+    display: flex;
+    overflow: hidden;
+    justify-content: space-between;
+}
+.statusBox>img{
+    height: 56px;
+    width: 56px;
+}
+.statusBox>p{
+    font-size: 12px;
+}
+
+.postBox{
+    width: 470px;
+    /* border: 1px solid black; */
+    margin: 20px 0px 14px 40px;
+}
+.postHeader{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    /* border: 1px solid black; */
+}
+.postHeader>section{
+    display: flex;
+}
+.postHeader>section>div>img{
+    height: 20px;
+    position: relative;
+    top: 10px;
+    left: 8px;
+}
+.postHeader>section>div>p{
+    font-size: 13px;
+    color: gray;
+    position: relative;
+    top: 12px;
+    left: 10px;
+}
+.postHeaderNaming{
+    display: flex;
+
+}
+.likeCommentShare{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.likeCommentShare>div>img{
+    margin: 0px 8px 0px 0px;
+}
+.postFooter>.text{
+    font-size: 14px;
+}
+.postComment{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 8px 0px 0px 0px;
+}
+.text>p{
+    margin: 8px 0px 0px 0px;
+}
+
+
+@media (max-width: 1000px){
+    #rightBody{
+        margin: 0px 0px 0px 10px;
+    }
+    #rightCorner{
+        display: none;
+    }
+    .postBox{
+        margin: 20px 0px 14px 20px;
+    }
+}
