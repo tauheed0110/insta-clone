@@ -266,6 +266,9 @@
     .postImage>img{
         width: 90vw;
     }
+    .likeCommentShare{
+        width: 90vw;
+    }
     #status{
         justify-content: left;
         align-items: left;
