@@ -247,10 +247,18 @@
     #rightBody{
         width: 100vw;
     }
+    .post{
+        width: 90vw;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
     .postBox{
         width: 90vw;
         margin: 20px 0px;
         padding: 0px 14px;
+
     }
     .postBox>.postHeader{
         width: 90vw;
