@@ -231,4 +231,26 @@
     .postBox{
         margin: 20px 0px 14px 20px;
     }
+    #left{
+        display: none;
+    }
+    #right{
+        width: 100vw;
+        padding: 0px;
+        margin: 14px 0px 0px 0px;
+    }
+    #rightBody>#status{
+        width: 100vw;
+    }
+    .postBox{
+        width: 90vw;
+        margin: 20px 0px 0px 0px;
+        padding: 0px 14px;
+    }
+    .postBox>.postHeader{
+        width: 90vw;
+    }
+    .postImage>img{
+        width: 90vw;
+    }
 }
