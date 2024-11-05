@@ -221,7 +221,7 @@
 }
 
 
-@media (max-width: 1000px){
+@media (max-width: 900px){
     #rightBody{
         margin: 0px 0px 0px 10px;
     }
@@ -246,13 +246,10 @@
     }
     #rightBody{
         width: 100vw;
-        display: flex;
-        flex-direction: column;
-        justify-content: center;
     }
     .postBox{
         width: 90vw;
-        margin: 20px 0px 0px 0px;
+        margin: 20px 0px;
         padding: 0px 14px;
     }
     .postBox>.postHeader{
@@ -263,6 +260,7 @@
     }
     #status{
         justify-content: left;
+        align-items: left;
     }
     .statusBox{
         margin-right: 14px;
