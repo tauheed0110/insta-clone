@@ -239,8 +239,16 @@
         padding: 0px;
         margin: 14px 0px 0px 0px;
     }
+    
     #rightBody>#status{
         width: 100vw;
+        margin: 0px 14px;
+    }
+    #rightBody{
+        width: 100vw;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
     }
     .postBox{
         width: 90vw;
@@ -252,5 +260,11 @@
     }
     .postImage>img{
         width: 90vw;
+    }
+    #status{
+        justify-content: left;
+    }
+    .statusBox{
+        margin-right: 14px;
     }
 }
